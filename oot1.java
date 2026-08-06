@@ -47,30 +47,7 @@ class Payment {
     }
 }
 
-class Wishlist {
-    void addProduct() {}
-    void removeProduct() {}
-}
 
-class Search {
-    void searchProduct(String keyword) {}
-}
-
-class Offer {
-    String coupon;
-    double discount;
-}
-
-class Delivery {
-    int deliveryId;
-    String deliveryStatus;
-    void trackOrder() {}
-}
-
-class Review {
-    int rating;
-    String feedback;
-}
 
 class Profile {
     String address;
